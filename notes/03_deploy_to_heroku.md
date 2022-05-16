@@ -9,7 +9,8 @@
 1. Create value for `SECRET_KEY` and save as local environment variable:  
 `python manage.py shell`  
 `from django.core.management.utils import get_random_secret_key`  
-`print(get_random_secret_key())`  
+`print(get_random_secret_key())` 
+Save as `SECRET_KEY` in your local environment. 
 
 1. Create `this_specific_project/settings` directory:  
 `mkdir settings`  
