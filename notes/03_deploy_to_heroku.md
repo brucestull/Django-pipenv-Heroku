@@ -1,6 +1,7 @@
 # Deploy to Heroku
 
-## Resources:
+## Resources and Links:
+* [README.md](../README.md)
 * [Configure Django for Production](https://thinkster.io/tutorials/configuring-django-settings-for-production)  
 
 ## Process:

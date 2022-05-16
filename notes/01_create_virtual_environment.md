@@ -1,5 +1,8 @@
 # 01 - Create `pipenv` virtual environment
 
+## Resources and Links:
+* [README.md](../README.md)
+
 ## Process:
 1. Inspect current directory structure:  
 `tree . /f /a`  

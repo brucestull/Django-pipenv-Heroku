@@ -1,6 +1,7 @@
 # 02 - Create Django Project
 
-## Resources:
+## Resources and Links:
+* [README.md](../README.md)
 
 ## Process:
 
