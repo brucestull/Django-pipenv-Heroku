@@ -34,7 +34,7 @@
 `C:\Users\User\.virtualenvs\Django-pipenv-Heroku-[unique code]`  
 
 1. (ACTION) Set Python interpreter:  
-View >> Command Palette >> Python: Select Interpreter >> Select at workspace level >> ...
+View >> Command Palette >> Python: Select Interpreter >> Select at workspace level >> ...  
 `C:\Users\User\.virtualenvs\Django-pipenv-Heroku-[unique code]\Scripts\activate.ps1`  
 
 1. (ACTION) Activate virtual environment:  
