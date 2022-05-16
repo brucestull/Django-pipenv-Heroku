@@ -2,7 +2,7 @@
 
 ## Process:
 1. Inspect current directory structure:  
-`tree . /f /a`
+`tree . /f /a`  
     ```
     DJANGO-PIPENV-HEROKU
     |   .gitignore
@@ -12,7 +12,7 @@
     ```
 
 1. Inspect currently installed packages:  
-`pip list`
+`pip list`  
     ```
     Package            Version
     ------------------ ---------
@@ -21,27 +21,27 @@
     ```
 
 1. Inspect installed python version:  
-`python -V`
+`python -V`  
     ```
     Python 3.10.3
     ```
 
 1. (ACTION) Create `pipenv` virtual environment:  
-`pipenv install`
+`pipenv install`  
 
 1. Note virtual environment location:  
-`C:\Users\Bruce\.virtualenvs\Django-pipenv-Heroku-[unique code]`
-`C:\Users\User\.virtualenvs\Django-pipenv-Heroku-[unique code]`
+`C:\Users\Bruce\.virtualenvs\Django-pipenv-Heroku-[unique code]`  
+`C:\Users\User\.virtualenvs\Django-pipenv-Heroku-[unique code]`  
 
 1. (ACTION) Set Python interpreter:  
 View >> Command Palette >> Python: Select Interpreter >> Select at workspace level >> ...
-`C:\Users\User\.virtualenvs\Django-pipenv-Heroku-[unique code]\Scripts\activate.ps1`
+`C:\Users\User\.virtualenvs\Django-pipenv-Heroku-[unique code]\Scripts\activate.ps1`  
 
 1. (ACTION) Activate virtual environment:  
-`pipenv shell`
+`pipenv shell`  
 
 1. Inspect current directory structure. Note addition of `Pipfile` and `Pipfile.lock`:  
-`tree . /f /a`
+`tree . /f /a`  
     ```
     DJANGO-PIPENV-HEROKU
     |   .gitignore
@@ -53,7 +53,7 @@ View >> Command Palette >> Python: Select Interpreter >> Select at workspace lev
     ```
 
 1. Inspect contents of `Pipfile`:  
-`cat Pipfile`
+`cat Pipfile`  
     ```
     [[source]]
     url = "https://pypi.org/simple"
@@ -69,7 +69,7 @@ View >> Command Palette >> Python: Select Interpreter >> Select at workspace lev
     ```
 
 1. Inspect packages installed in virtual environment:  
-`pip list`
+`pip list`  
     ```
     Package    Version
     ---------- -------
@@ -79,10 +79,10 @@ View >> Command Palette >> Python: Select Interpreter >> Select at workspace lev
     ```
 
 1. (ACTION) Install Django:  
-`pipenv install django`
+`pipenv install django`  
 
 1. Inspect packages installed in virtual environment:  
-`pip list`
+`pip list`  
     ```
     Package    Version
     ---------- -------
@@ -92,7 +92,7 @@ View >> Command Palette >> Python: Select Interpreter >> Select at workspace lev
     ```
 
 1. Inspect contents of `Pipfile`. NOTE: Django version isn't specified:  
-`cat Pipfile`
+`cat Pipfile`  
     ```
     ...
     [packages]
@@ -102,7 +102,7 @@ View >> Command Palette >> Python: Select Interpreter >> Select at workspace lev
     ```
 
 1. (ACTION) Install specific Django version:  
-`pipenv install django==4.0`
+`pipenv install django==4.0`  
 
 1. Inspect packages installed in virtual environment:  
 `pip list`
@@ -115,7 +115,7 @@ View >> Command Palette >> Python: Select Interpreter >> Select at workspace lev
     ```
 
 1. Inspect contents of `Pipfile` NOTE: Django version is now specified:  
-`cat Pipfile`
+`cat Pipfile`  
     ```
     ...
     [packages]
