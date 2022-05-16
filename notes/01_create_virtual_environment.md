@@ -1,7 +1,9 @@
 # 01 - Create `pipenv` virtual environment
 
 ## Resources and Links:
-* [README.md](../README.md)
+* [README.md](../README.md)  
+* [Pipenv & Virtual Environments - python-guide.org](https://docs.python-guide.org/dev/virtualenvs/)  
+* [Pipenv: A Guide to the New Python Packaging Tool - realpython.com](https://realpython.com/pipenv-guide/)    
 
 ## Process:
 1. Inspect current directory structure:  
@@ -94,7 +96,8 @@ View >> Command Palette >> Python: Select Interpreter >> Select at workspace lev
     ...
     ```
 
-1. Inspect contents of `Pipfile`. NOTE: Django version isn't specified:  
+1. Inspect contents of `Pipfile`:  
+* NOTE: Django version isn't specified. If that is preferred, there is no need to specify version.
 `cat Pipfile`  
     ```
     ...

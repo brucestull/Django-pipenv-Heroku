@@ -1,7 +1,8 @@
 # 02 - Create Django Project
 
 ## Resources and Links:
-* [README.md](../README.md)
+* [README.md](../README.md)  
+* [How to start a Django project - PDXCG Style](https://github.com/PdxCodeGuild/class_otter/blob/main/3%20Django/docs/Django%20Project%20Setup.md)  
 
 ## Process:
 
