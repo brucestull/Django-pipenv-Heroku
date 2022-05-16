@@ -68,8 +68,8 @@ http://localhost:8030/admin/
 `heroku create django-pipenv-heroku`  
 
 1. Note production server and git repo addresses:  
-`https://django-pipenv-heroku.herokuapp.com/`  
-`https://git.heroku.com/django-pipenv-heroku.git`  
+* https://django-pipenv-heroku.herokuapp.com/  
+* https://git.heroku.com/django-pipenv-heroku.git  
 
 1. Verify remote git servers:  
 `git remote -v`  
@@ -126,5 +126,5 @@ http://localhost:8030/admin/
 `heroku run python manage.py createsuperuser`  
 
 1. Check deployed application Admin Page:  
-`https://django-pipenv-heroku.herokuapp.com/admin`  
+* https://django-pipenv-heroku.herokuapp.com/admin
 
