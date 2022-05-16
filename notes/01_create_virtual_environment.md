@@ -1,7 +1,7 @@
 # 01 - Create `pipenv` virtual environment
 
 ## Process:
-1. Inspect current directory structure:
+1. Inspect current directory structure:  
 `tree . /f /a`
     ```
     DJANGO-PIPENV-HEROKU
@@ -11,7 +11,7 @@
     \---.vscode
     ```
 
-1. Inspect currently installed packages:
+1. Inspect currently installed packages:  
 `pip list`
     ```
     Package            Version
@@ -20,27 +20,27 @@
     pipenv             2022.1.8
     ```
 
-1. Inspect installed python version:
+1. Inspect installed python version:  
 `python -V`
     ```
     Python 3.10.3
     ```
 
-1. (ACTION) Create `pipenv` virtual environment:
+1. (ACTION) Create `pipenv` virtual environment:  
 `pipenv install`
 
-1. Note virtual environment location:
+1. Note virtual environment location:  
 `C:\Users\Bruce\.virtualenvs\Django-pipenv-Heroku-[unique code]`
 `C:\Users\User\.virtualenvs\Django-pipenv-Heroku-[unique code]`
 
-1. (ACTION) Set Python interpreter:
+1. (ACTION) Set Python interpreter:  
 View >> Command Palette >> Python: Select Interpreter >> Select at workspace level >> ...
 `C:\Users\User\.virtualenvs\Django-pipenv-Heroku-[unique code]\Scripts\activate.ps1`
 
 1. (ACTION) Activate virtual environment:  
 `pipenv shell`
 
-1. Inspect current directory structure. Note addition of `Pipfile` and `Pipfile.lock`:
+1. Inspect current directory structure. Note addition of `Pipfile` and `Pipfile.lock`:  
 `tree . /f /a`
     ```
     DJANGO-PIPENV-HEROKU
@@ -52,7 +52,7 @@ View >> Command Palette >> Python: Select Interpreter >> Select at workspace lev
     \---.vscode
     ```
 
-1. Inspect contents of `Pipfile`:
+1. Inspect contents of `Pipfile`:  
 `cat Pipfile`
     ```
     [[source]]
@@ -91,7 +91,7 @@ View >> Command Palette >> Python: Select Interpreter >> Select at workspace lev
     ...
     ```
 
-1. Inspect contents of `Pipfile`. NOTE: Django version isn't specified:
+1. Inspect contents of `Pipfile`. NOTE: Django version isn't specified:  
 `cat Pipfile`
     ```
     ...
@@ -114,7 +114,7 @@ View >> Command Palette >> Python: Select Interpreter >> Select at workspace lev
     ...
     ```
 
-1. Inspect contents of `Pipfile` NOTE: Django version is now specified:
+1. Inspect contents of `Pipfile` NOTE: Django version is now specified:  
 `cat Pipfile`
     ```
     ...
